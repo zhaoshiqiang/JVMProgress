@@ -3,6 +3,7 @@ package chapter3;
 /**
  * 引用计数法缺陷是无法回收循环引用的对象
  * JVM并没有用这种计数方法
+ * -XX:+PrintGCDetails 输出GC详细信息
  * Created by zhaoshiqiang on 2017/7/23.
  */
 public class ReferenceCountingGC {
