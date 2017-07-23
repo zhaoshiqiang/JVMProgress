@@ -3,7 +3,7 @@ package chapter3;
 /**
  * 长期存活的对象进入老年代
  * 通过MaxTenuringThreshold来设置
- * VM args:-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:+UseSerialGC -XX:MaxTenuringThreshold=1
+ * VM args:-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:+UseSerialGC -XX:MaxTenuringThreshold=1 -XX:+PrintTenuringDistribution
  * Created by zhaoshiqiang on 2017/7/23.
  */
 public class testTenuringThreshold {
