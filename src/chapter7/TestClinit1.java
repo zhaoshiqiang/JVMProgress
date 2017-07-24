@@ -8,7 +8,7 @@ package chapter7;
  * static{}中只能访问定义在static{}之前的变量，定义在它之后的变量，static{}只能赋值，不能访问
  * Created by zhaoshq on 2017/7/24.
  */
-public class TestClinit {
+public class TestClinit1 {
 
     static {
         i = 0;  //给变量赋值可以正常通过
